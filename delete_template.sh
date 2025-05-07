@@ -37,7 +37,7 @@ echo
 read -p "Are you sure you want to delete this template? (Y/N) " -n 1 -r
 echo
 
-if [[ ! $REPLY =~ ^[Ss]$ ]]; then
+if [[ ! $REPLY =~ ^[YySs]$ ]]; then
     echo "Operation canceled!"
     exit 1
 fi
