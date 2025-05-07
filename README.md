@@ -39,3 +39,6 @@ These are one of hundreds of linux distro that support cloud images.
 | Ubuntu 24.10 | https://cloud-images.ubuntu.com/releases/oracular/release/ubuntu-24.10-server-cloudimg-amd64.img |
 
 Use the URL above to set **IMAGE_URL** variable inside the **.env file**.
+
+## TO-DO
+- Organize readme file with repositories from more distros.
